@@ -33,6 +33,7 @@ Bundle 'kana/vim-textobj-user'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'Lokaltog/vim-powerline'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'mattn/zencoding-vim'
 Bundle 'mileszs/ack.vim'
@@ -183,7 +184,7 @@ set wildmode=list:longest,full
 
 " Ignore files
 set wildignore+=.git
-set wildignore+=/**/node_modules/**,/**/vendor
+set wildignore+=/**/node_modules/**,/**/vendor,/**/spec/reports,/**/coverage
 
 " Remember things between sessions
 "
