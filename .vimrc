@@ -33,7 +33,7 @@ Bundle 'kana/vim-textobj-user'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'Lokaltog/powerline'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'mattn/zencoding-vim'
 Bundle 'mileszs/ack.vim'
@@ -250,6 +250,9 @@ set splitbelow
 
 " No more ri tooltips
 set noballooneval
+
+" Set path to powerline
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 " Easily edit the vimrc file with \ev
 nmap <leader>ev :e $MYVIMRC<CR>

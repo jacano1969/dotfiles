@@ -14,8 +14,8 @@ URxvt*geometry:		80x20
 
 URxvt*urgentOnBell: true
 
-URxvt.font:               xft:DejavuSansMono:pixelsize=12
-URxvt.boldfont:           xft:DejavuSansMono:pixelsize=12:Bold
+URxvt.font:               xft:DejavuSansMonoForPowerline:pixelsize=12
+URxvt.boldfont:           xft:DejavuSansMonoForPowerline:pixelsize=12:Bold
 !URxvt*font:xft:droid sans mono slashed:size=10.5
 !URxvt*boldFont:xft:droid sans mono slashed:size=10.5
 !URxvt.font:               xft:DejavuSansMono:pixelsize=12
